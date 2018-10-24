@@ -3,7 +3,7 @@ import os
 import string
 
 if len(sys.argv) < 2:
-	print('not enough arguments')
+	print('not enough arguments. you need at least 2')
 	sys.exit()
 	
 infilename = sys.argv[1];

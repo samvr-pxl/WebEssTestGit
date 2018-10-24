@@ -17,5 +17,5 @@ for line in open(infilename, 'r'):
 		break
 	else:
 		parts = line.split("	")
-		newline = "changed locally"
+		newline = "changed locally again, no conflict this time"
 		out.write(newline)

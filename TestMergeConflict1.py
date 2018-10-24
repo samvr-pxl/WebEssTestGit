@@ -17,5 +17,5 @@ for line in open(infilename, 'r'):
 		break
 	else:
 		parts = line.split("	")
-		newline = '	'.join(parts[1::1])
+		newline = "Changed directly in the repository"
 		out.write(newline)

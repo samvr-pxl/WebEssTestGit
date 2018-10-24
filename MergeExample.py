@@ -17,5 +17,5 @@ for line in open(infilename, 'r'):
 		break
 	else:
 		parts = line.split("	")
-		newline = "Local change 1"
+		newline = "CHange locally => will cause merge conflict"
 		out.write(newline)
